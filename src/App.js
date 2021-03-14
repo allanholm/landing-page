@@ -1,3 +1,4 @@
+import CookieConsent from "./components/CookieConsent";
 import Gallery from "./components/Gallery";
 import Pitch from "./components/Pitch";
 import Plans from "./components/Plans";
@@ -13,6 +14,7 @@ export default function App() {
       <Pitch />
       <Testimonials />
       <Plans />
+      <CookieConsent />
     </>
   );
 }
