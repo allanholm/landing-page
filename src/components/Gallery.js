@@ -20,23 +20,16 @@ export default function Gallery() {
         <GalleryItem 
           image="https://picsum.photos/1920/1080?random=2" 
           copy="Køb vores lort!" 
-          ctaLink="/buythisthing" 
+          ctaLink="/buythisthing2" 
           ctaCopy="Klik her"/>
       </Carousel.Item>
       <Carousel.Item>
         <GalleryItem 
           image="https://picsum.photos/1920/1080?random=3" 
           copy="Køb vores lort!" 
-          ctaLink="/buythisthing" 
+          ctaLink="/buythisthing3" 
           ctaCopy="Klik her"/>
       </Carousel.Item>
-      <Carousel.Item>
-        <GalleryItem 
-          image="https://picsum.photos/1920/1080?random=4" 
-          copy="Køb vores lort!" 
-          ctaLink="/buythisthing" 
-          ctaCopy="Klik her"/>
-      </Carousel.Item> 
     </Carousel>
   );
 }

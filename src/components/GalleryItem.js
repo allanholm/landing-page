@@ -6,7 +6,10 @@ export default function GalleryItem({image, copy, ctaLink, ctaCopy}) {
           <img src={image} alt="of something"className="carouselItem__image"/>
           <div className="carouselItem__content">
             <p className="carouselItem__copy">{copy}</p>
-            <a href={ctaLink} className="carouselItem__CTA">{ctaCopy}</a>
+            <a href={ctaLink} className="carouselItem__CTA"
+            // eslint-disable-next-line
+            onClick={gtag("event", "cta", ctaLink)}
+            >{ctaCopy}</a>
           </div>
         </div>
   );
