@@ -9,8 +9,8 @@ export default function PlanCard({ heading, summary, price, link, getfrom, featu
         <p className="title__price">{price}</p>
         <p className="title__conditions">/user/month*<br/>(billed annually)</p>
         <a href={link} className="title__link"
-        // eslint-disable-next-line
-        onClick= {() => gtag("event", "select_content", {"content_type": heading})}
+          // eslint-disable-next-line
+          onClick= {() => gtag("event", "select_content", { "content_type": heading, "test-type": "A"})}
         >Try for <span className="title__link--caps">free</span> &gt;</a>
       </section>
       
